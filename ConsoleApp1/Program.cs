@@ -20,6 +20,7 @@ namespace ConsoleApp1
             Console.WriteLine("C# 테스트");
             Console.WriteLine(add);
             Console.WriteLine(ed);
+            Console.WriteLine("==========================");
         }
     }
 }
