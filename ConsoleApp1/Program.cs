@@ -9,7 +9,7 @@ namespace ConsoleApp1
             long add = 0;
             var st = System.DateTime.Now;
 
-            for (int index = 0; index <= 100000000; index++)
+            for (int index = 0; index <= 1000000000; index++)
             {
                 add = add + index;
             }
