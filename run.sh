@@ -1,4 +1,7 @@
-sudo dotnet ./ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.dll
+clear
+
+#sudo dotnet ./ConsoleApp1/bin/Debug/net5.0/ConsoleApp1.dll
+
 sudo docker pull wymoon2690/consoleapp1:latest
 sudo docker run --rm wymoon2690/consoleapp1:latest
 
