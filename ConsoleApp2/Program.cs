@@ -10,7 +10,7 @@ for (int index = 0; index <= 100000000; index++)
 
 for( int i = 0; i < 1_000_000; i++ )
 {
-    MD5HashFunc("111");
+    MD5HashFunc("111" + System.DateTime.UtcNow.ToString());
 }
 
 var ed = System.DateTime.Now - st;
