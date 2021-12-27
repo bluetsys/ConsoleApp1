@@ -25,8 +25,8 @@ var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
         [Benchmark]
         public byte[] Sha256() => sha256.ComputeHash(data);
 
-        [Benchmark]
-        public byte[] Md5() => md5.ComputeHash(data);
+        // [Benchmark]
+        // public byte[] Md5() => md5.ComputeHash(data);
 
      
         [Benchmark]
