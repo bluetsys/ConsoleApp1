@@ -31,6 +31,5 @@ var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
      
         [Benchmark]
         public byte[] Bytes() => data;
-
            
     }
