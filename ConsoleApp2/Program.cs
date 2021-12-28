@@ -13,8 +13,6 @@ for( int i = 0; i < 1_000_000; i++ )
     MD5HashFunc(ee);
 }
 
-Console.WriteLine(System.Environment.GetEnvironmentVariable("PROCESSOR_IDENTIFIER"));
-
 var ed = System.DateTime.Now - st;
 
 Console.WriteLine($"MachineName - {System.Environment.MachineName}");
