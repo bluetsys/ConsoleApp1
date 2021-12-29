@@ -6,6 +6,7 @@ using BenchmarkDotNet.Running;
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
+Console.WriteLine("Hello, World!");
 
 [RPlotExporter]
  public class Md5VsSha256
@@ -28,8 +29,19 @@ var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
         [Benchmark]
         public byte[] Md5() => md5.ComputeHash(data);
 
-     
         [Benchmark]
         public byte[] Bytes() => data;
-           
+
+        [Benchmark]
+        public int Gauß()
+        {
+            var add = 0;
+            for (var index = 0; index <= 100000000; index++)
+
+            {
+                add = add + index;
+            }
+
+            return add;
+        }
     }
