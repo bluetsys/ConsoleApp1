@@ -32,16 +32,16 @@ Console.WriteLine("Hello, World!");
         [Benchmark]
         public byte[] Bytes() => data;
 
-        [Benchmark]
+ /*        [Benchmark]
         public int Gauß()
         {
             var add = 0;
-            for (var index = 0; index <= 100000000; index++)
+            for (var index = 0; index <= 100_000_000; index++)
 
             {
                 add = add + index;
             }
 
             return add;
-        }
+        } */
     }
