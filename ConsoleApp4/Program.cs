@@ -11,7 +11,7 @@ Console.WriteLine("Hello, World!");
 [RPlotExporter]
  public class Md5VsSha256
     {
-        private const int N = 10000;
+        private const int N = 1000;
         private readonly byte[] data;
 
         private readonly SHA256 sha256 = SHA256.Create();
