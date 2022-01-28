@@ -65,3 +65,19 @@ Intel Core i5-8279U CPU 2.40GHz (Coffee Lake), 1 CPU, 8 logical and 4 physical c
 |    Md5 | 1,936.4278 ns | 28.8352 ns |  25.5616 ns |
 |  Bytes |     0.2307 ns |  0.0159 ns |   0.0141 ns |
 
+
+``` ini
+
+BenchmarkDotNet=v0.13.1, OS=ubuntu 20.04
+Intel Xeon Platinum 8171M CPU 2.60GHz, 1 CPU, 2 logical and 2 physical cores
+.NET SDK=6.0.101
+  [Host]     : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+  DefaultJob : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+
+
+```
+| Method |          Mean |      Error |     StdDev |        Median |
+|------- |--------------:|-----------:|-----------:|--------------:|
+| Sha256 | 3,709.8587 ns | 68.6387 ns | 64.2047 ns | 3,704.6891 ns |
+|    Md5 | 2,523.5168 ns | 48.9254 ns | 73.2293 ns | 2,527.0654 ns |
+|  Bytes |     0.1076 ns |  0.1114 ns |  0.1094 ns |     0.0678 ns |
