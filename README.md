@@ -31,3 +31,20 @@ BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19043.928 (21H1/May2021Update)
 | Sha256 |   482.1391 ns | 3.9579 ns | 3.7023 ns |
 |    Md5 | 1,412.0901 ns | 8.0887 ns | 7.5662 ns |
 |  Bytes |     0.0000 ns | 0.0000 ns | 0.0000 ns |
+
+
+``` ini
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+12th Gen Intel Core i9-12900K, 1 CPU, 24 logical and 16 physical cores
+.NET SDK=6.0.101
+  [Host]     : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+  DefaultJob : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+
+
+```
+| Method |          Mean |     Error |    StdDev |        Median |
+|------- |--------------:|----------:|----------:|--------------:|
+| Sha256 |   484.6380 ns | 1.4059 ns | 1.3151 ns |   485.2187 ns |
+|    Md5 | 1,398.0980 ns | 8.4759 ns | 7.9284 ns | 1,399.1964 ns |
+|  Bytes |     0.0369 ns | 0.0297 ns | 0.0278 ns |     0.0535 ns |
