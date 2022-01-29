@@ -132,3 +132,19 @@ Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 |    Md5 | 2,638.7568 ns |  51.2487 ns |  68.4155 ns | 2,619.3535 ns |
 |  Bytes |     0.0594 ns |   0.0563 ns |   0.0470 ns |     0.0429 ns |
 
+
+``` ini
+
+BenchmarkDotNet=v0.13.1, OS=ubuntu 20.04
+Intel Celeron CPU N3350 1.10GHz, 1 CPU, 2 logical and 2 physical cores
+.NET SDK=6.0.101
+  [Host]     : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+  DefaultJob : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+
+
+```
+| Method |          Mean |      Error |     StdDev |
+|------- |--------------:|-----------:|-----------:|
+| Sha256 | 2,442.0105 ns | 24.1783 ns | 21.4335 ns |
+|    Md5 | 2,781.6607 ns | 30.3662 ns | 28.4046 ns |
+|  Bytes |     0.0000 ns |  0.0000 ns |  0.0000 ns |
