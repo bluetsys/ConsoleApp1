@@ -81,3 +81,20 @@ Intel Xeon Platinum 8171M CPU 2.60GHz, 1 CPU, 2 logical and 2 physical cores
 | Sha256 | 3,709.8587 ns | 68.6387 ns | 64.2047 ns | 3,704.6891 ns |
 |    Md5 | 2,523.5168 ns | 48.9254 ns | 73.2293 ns | 2,527.0654 ns |
 |  Bytes |     0.1076 ns |  0.1114 ns |  0.1094 ns |     0.0678 ns |
+
+
+``` ini
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+11th Gen Intel Core i7-1165G7 2.80GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK=6.0.101
+  [Host]     : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+  DefaultJob : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+
+
+```
+| Method |          Mean |      Error |     StdDev |
+|------- |--------------:|-----------:|-----------:|
+| Sha256 |   691.7251 ns |  5.6695 ns |  5.0259 ns |
+|    Md5 | 1,699.8855 ns | 12.3174 ns | 11.5217 ns |
+|  Bytes |     0.0195 ns |  0.0190 ns |  0.0178 ns |
