@@ -165,3 +165,20 @@ Intel Core i9-9900KF CPU 3.60GHz (Coffee Lake), 1 CPU, 16 logical and 8 physical
 | Sha256 | 3,672.3238 ns | 36.9446 ns | 34.5580 ns | 3,660.1868 ns |
 |    Md5 | 1,584.4338 ns |  7.6168 ns |  7.1248 ns | 1,584.8598 ns |
 |  Bytes |     0.0056 ns |  0.0116 ns |  0.0108 ns |     0.0000 ns |
+
+``` ini
+
+BenchmarkDotNet=v0.13.1, OS=ubuntu 20.04
+Intel Xeon Silver 4210R CPU 2.40GHz, 1 CPU, 20 logical and 10 physical cores
+.NET SDK=6.0.101
+  [Host]     : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+  DefaultJob : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+
+
+```
+| Method |          Mean |      Error |     StdDev |        Median |
+|------- |--------------:|-----------:|-----------:|--------------:|
+| Sha256 | 2,803.2713 ns | 12.4053 ns | 11.6039 ns | 2,801.1273 ns |
+|    Md5 | 1,886.9707 ns | 16.6504 ns | 14.7602 ns | 1,889.2641 ns |
+|  Bytes |     0.0014 ns |  0.0047 ns |  0.0044 ns |     0.0000 ns |
+
