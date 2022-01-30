@@ -1,9 +1,13 @@
 // * Legends *
-  Mean   : Arithmetic mean of all measurements
-  Error  : Half of 99.9% confidence interval
-  StdDev : Standard deviation of all measurements
-  Median : Value separating the higher half of all measurements (50th percentile)
-  1 ns   : 1 Nanosecond (0.000000001 sec)
+| Method |          Mean |
+|------- |---------------|
+| Mean | Arithmetic mean of all measurements |
+| Error | Half of 99.9% confidence interval |
+| StdDev | Standard deviation of all measurements |
+| Median | Value separating the higher half of all measurements (50th percentile) |
+| 1 ns | 1 Nanosecond (0.000000001 sec) |
+
+
 
 ``` ini
 
