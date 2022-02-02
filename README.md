@@ -46,7 +46,7 @@ BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19043.928 (21H1/May2021Update)
 
 ``` ini
 
-BenchmarkDotNet=v0.13.1, OS=macOS Monterey 12.0.1 (21A559) [Darwin 21.1.0]
+BenchmarkDotNet=v0.13.1, OS=macOS Monterey 12.2 (21D49) [Darwin 21.3.0]
 Apple M1, 1 CPU, 8 logical and 8 physical cores
 .NET SDK=6.0.101
   [Host]     : .NET 6.0.1 (6.0.121.56705), Arm64 RyuJIT
@@ -56,9 +56,10 @@ Apple M1, 1 CPU, 8 logical and 8 physical cores
 ```
 | Method |          Mean |     Error |    StdDev |        Median |
 |------- |--------------:|----------:|----------:|--------------:|
-| Sha256 |   533.5732 ns | 0.2514 ns | 0.2099 ns |   533.5673 ns |
-|    Md5 | 2,052.7040 ns | 1.0770 ns | 0.9547 ns | 2,052.5433 ns |
-|  Bytes |     0.0005 ns | 0.0012 ns | 0.0010 ns |     0.0000 ns |
+| Sha256 |   526.6076 ns | 0.7159 ns | 0.5978 ns |   526.5497 ns |
+|    Md5 | 2,044.8842 ns | 2.0519 ns | 1.8190 ns | 2,044.2514 ns |
+|  Bytes |     0.0008 ns | 0.0016 ns | 0.0013 ns |     0.0000 ns |
+
 
 
 
