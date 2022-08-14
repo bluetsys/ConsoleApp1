@@ -20,7 +20,7 @@ namespace ConsoleApp1
             Console.WriteLine($"OSVersion - {System.Environment.OSVersion}");
             Console.WriteLine($"UtcNow - {System.DateTime.UtcNow}");
             Console.WriteLine(System.DateTime.UtcNow);
-            Console.WriteLine("==========================");
+            Console.WriteLine("==========================!!s");
             Console.WriteLine("C# 테스트");
             Console.WriteLine(add);
             Console.WriteLine(ed);
