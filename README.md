@@ -195,3 +195,18 @@ Intel Xeon Silver 4210R CPU 2.40GHz, 1 CPU, 20 logical and 10 physical cores
 |    Md5 | 1,886.9707 ns | 16.6504 ns | 14.7602 ns | 1,889.2641 ns |
 |  Bytes |     0.0014 ns |  0.0047 ns |  0.0044 ns |     0.0000 ns |
 
+
+```
+BenchmarkDotNet=v0.13.1, OS=ubuntu 20.04
+Intel Xeon Platinum 8272CL CPU 2.60GHz, 1 CPU, 8 logical and 8 physical cores
+.NET SDK=6.0.400
+  [Host]     : .NET 6.0.8 (6.0.822.36306), X64 RyuJIT
+  DefaultJob : .NET 6.0.8 (6.0.822.36306), X64 RyuJIT
+
+```
+| Method |          Mean |     Error |    StdDev |
+|------- |--------------:|----------:|----------:|
+| Sha256 | 2,930.7821 ns | 1.3339 ns | 1.2477 ns |
+|    Md5 | 1,962.6264 ns | 1.6643 ns | 1.4753 ns |
+|  Bytes |     0.0000 ns | 0.0000 ns | 0.0000 ns |
+
