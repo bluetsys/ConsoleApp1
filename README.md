@@ -1,3 +1,5 @@
+docker run -it --rm wymoon2690/consoleapp1:latest
+
 // * Legends *
 | Method |          Mean |
 |------- |---------------|
