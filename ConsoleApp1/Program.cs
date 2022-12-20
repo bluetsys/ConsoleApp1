@@ -19,7 +19,6 @@ namespace ConsoleApp1
             Console.WriteLine($"MachineName - {System.Environment.MachineName}");
             Console.WriteLine($"OSVersion - {System.Environment.OSVersion}");
             Console.WriteLine($"UtcNow - {System.DateTime.UtcNow}");
-            Console.WriteLine(System.DateTime.UtcNow);
             Console.WriteLine("==========================");
             Console.WriteLine("C# 테스트");
             Console.WriteLine(add);
