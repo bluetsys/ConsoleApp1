@@ -9,6 +9,7 @@ var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
 Console.WriteLine("Hello, World!");
 
 [RPlotExporter]
+[SimpleJob(BenchmarkDotNet.Jobs.RuntimeMoniker.Net90)]
 [SimpleJob(BenchmarkDotNet.Jobs.RuntimeMoniker.Net80)]
 [SimpleJob(BenchmarkDotNet.Jobs.RuntimeMoniker.Net70)]
 [SimpleJob(BenchmarkDotNet.Jobs.RuntimeMoniker.Net60)]
